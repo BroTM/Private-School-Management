@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffff</color>
+    <color name="back">#A9A4F1</color>
+    <color name="orange">#EC6620</color>
+    <color name="silver">#f2eeee</color>
+    <color name="colorPrimary">#1f890f</color>
+    <color name="color">#ffffff</color>
+    <color name="colorPrimaryDark">#1f890f</color>
+    <color name="te">#1f890f</color>
+    //1f890f
+    <color name="colorAccent">#2971BE</color>
+    <color name="card_background">#f5f5f5</color>
+    <color name="black">#000000</color>
+    <color name="buttonbackground">#2971BE</color>
+    <color name="buttontextcolor">#ffffff</color>
+    <color name="titleshadow">#26a69a</color>
+    <color name="main">#E4E4E4</color>
+    <color name="mainlogin">#4F92F7</color>
+    <color name="bold">#4b4b4b</color>
+    <color name="event_background">#50000000</color>
+    <color name="event_title">#eeeeee</color>
+    <color name="textcolor">#f9f7f7</color>
+    <color name="registrationbutton">#1b8124</color>
+    <color name="timecolor">#B0BEC5</color>
+    <color name="slide1">#009688</color>
+    <color name="slide2">#795548</color>
+    <color name="slide3">#8BC1B5</color>
+    <color name="slide4">#F51B58</color>
+    <color name="active_color">#fffafa</color>
+    <color name="inactive_color">#83878b</color>
+    <color name="edit_background">#e0e0e0</color>
+
+
+</resources>
+
+
+
+

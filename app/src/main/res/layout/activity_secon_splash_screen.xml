@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#8BC1B5"></LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ကိုယ်ပိုင်ကျောင်း (ရုံး)"
+        android:id="@+id/appText"
+        android:textColor="@color/white"
+        android:elevation="5dp"
+        android:textSize="29dp"
+        android:textStyle="bold"
+        android:layout_centerInParent="true"/>
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/appText"
+        android:layout_marginBottom="32dp"
+        android:src="@drawable/logo"
+        android:layout_centerHorizontal="true"
+        />
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_below="@+id/appText"
+        android:layout_marginLeft="155dp"
+        android:id="@+id/splas_progressbar"
+        />
+</RelativeLayout>

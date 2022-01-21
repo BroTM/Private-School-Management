@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">ကိုယ်ပိုင်ကျောင်း</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="feedback">အကြံပြုချက်</string>
+    <string name="aboutapp">ဆော့ဝဲလ်အကြောင်း</string>
+    <string name="logout">အကောင့် ထွက်မယ်</string>
+    <string name="aboutus">ဆော့ဝဲလ်ရေးသူများအကြောင်း</string>
+    <string name="all_search">အတန္းအားလံုးမှကျောင်းသားအားအမည်ဖြင့်ရှာရန််</string>
+    <string name="real_student_search">သူငယ်တန်းမှကျောင်းသားအားအမည်ဖြင့်ရှာရန််</string>
+    <string name="class1_search">ပထမတန်းမှကျောင်းသားအားအမည်ဖြင့်ရှာရန်</string>
+    <string name="class2_search">ဒုတိယတန်းမှကျောင်းသားအားအမည်ဖြင့်ရှာရန်</string>
+    <string name="class3_search">တတိယတန်းမှကျောင်းသားအားအမည်ဖြင့်ရှာရန်</string>
+    <string name="class4_search">စတုတ္ထတန်းကျောင်းသားအားအမည်ဖြင့်ရှာရန</string>
+    <string name="class5_search">ပဉ္စမတန်းကျောင်းသားအားအမည်ဖြင့်ရှာရန</string>
+    <string name="class6_search">ဆဠမတန်းကျောင်းသားအားအမည်ဖြင့်ရှာရန</string>
+    <string name="class7_search">သတ္တမတန်းကျောင်းသားအားအမည်ဖြင့်ရှာရန</string>
+    <string name="class8_search">အဋ္ဌမတန်းကျောင်းသားအားအမည်ဖြင့်ရှာရန</string>
+    <string name="class9_search">နဝမတန်းကျောင်းသားအားအမည်ဖြင့်ရှာရန</string>
+    <string name="class10_search">ဒသမတန်းကျောင်းသားအားအမည်ဖြင့်ရှာရန</string>
+    <string name="about_title">ကျောင်းအကြောင်း</string>
+    <string name="about">"ကိုယ်ပိုင်ကျောင်း Application သည် မြန်မာနိုင်ငံအတွင်းရှိ
+ကိုယ်ပိုင်ကျောင်း(Private School)များအတွက်ရည်ရွယ်ရေးသားထားခြင်းဖြစ်ပါသည်။ ကိုယ်ပိုင်ကျောင်းApplicationကို
+
+- ကျောင်းအုပ်ဆရာကြီး (Admin)
+- ကျောင်းသားမိဘများ (Parent)
+- နည်းပြဆရာများ (Guide)
+- ကျောင်းအကြောင်းသိချင်သူများ (Public)စသည့် အဖက်ဖက်မှအသုံးပြုနိုင်အောင် ရေးသားထားခြင်း ဖြစ်ပါသည်။
+ကိုယ်ပိုင်ကျောင်း Applicationတွင် အောက်ပါ လုပ်ဆောင်ချက်များကိုလုပ်ဆောင်ပေးနိုင်ပါသည်။
+
+(၁) ကျောင်းအကြောင်းများကိုသိရှိနိုင်ခြင်း
+(၂) ကျောင်းအပ်နိုင်ခြင်း
+(၃) ကျောင်းအိမ်စာများသိနိုင်ခြင်း
+(၄) ခွင့်တိုင်နိုင်ခြင်း
+(၅) ကျောင်းမှသတိပေးချက်များပို့နိုင်ခြင်း
+(၆) ကျောင်းမှလုပ်ဆောင်ချက်များကိုသိရှိနိုင်ခြင်း"</string>
+    <string name="please_enter_again">ကျေးဇူးပြုပြီး ပြည့်စုံစွာဖြည့်စွက်ပေးပါ</string>
+
+    <string name="perfect_event_post">ကျောင်း၏ လှုပ်ရှားမှုများ တင်ပီးပါပီ။</string>
+    <string name="acdamic">ပညာသင်နှစ်</string>
+    <string name="slide1_title">"ေက်ာင္းအေၾကာင္းကိုေလ့လာျခင္း"</string>
+    <string name="slide1_desc">"အေကာင့္ေနာက္မွဖြင့္မယ္ button အားနွိပ္ပါ။"</string>
+    <string name="slide2_desc">"ေက်ာင္းအပ္နိုင္ရန္အေကာင့္ဖြင့္ပါ။"</string>
+    <string name="slide3_desc">"မိဘမ်ားနွင့္ဆရာမ်ားအေနျဖင့္သံုးစြဲရန္ေက်ာင္းမွေပးထားေသာေက်ာင္းဝင္နံပါတ္နွင့္စကားဝွတ္အားအသံုးျပဳပါ။"</string>
+    <string name="slide2_title">"ကျောင်းအပ်ခြင်း"</string>
+    <string name="slide3_title">"မိဘများနှင့်ဆရာများ"</string>
+    <string name="apppassword">appဝင်ရန် စကားဝှက်</string>
+    <string name="appusername">appဝင်ရန်အမည်</string>
+    <string name="notice_title">ကြော်ငြာသင်ပုန်း</string>
+    <string name="my_preference">"com.abc.com.MyPref"</string>
+    <string name="my_preference_key">"com.abc.com.MyPrefKey"</string>
+    <string name="are_you_sure">ကျောင်းသားအဖြစ်လက်ခံမည်သေချာပါသလား။</string>
+    <string name="confirm">သေချာသည်</string>
+    <string name="cancel">ပယ်ဖျက်မည်</string>
+    <string name="school_money">"၁။  မူလတန်းမှ စတုတ္တတန်းအထိ   - ၆သိန်းကျပ်(တစ်နှစ်စာ)
+     စတင်ပေးသွင်းရမည့်ငွေ          - ၂သိန်းကျပ်
+၂။ ပဉ္စမတန်းမှ သတ္တမတန်းအထိ   - ၈သိန်းကျပ်(တစ်နှစ်စာ)
+     စတင်ပေးသွင်းရမည့်ငွေ         - ၃သိန်းကျပ်
+၃။  အဌမတန်း                         - ၉သိန်းကျပ်
+    စတင်ပေးသွင်းရမည့်ငွေ         - ၃သိန်းကျပ်
+၄။ နဝမတန်း                          - ၁၁ သိန်းကျပ်
+    စတင်ပေးသွင်းရမည့်ငွေ         - ၄သိန်းကျပ်
+၅။ ဒသမတန်း                         -၁၂သိန်းကျပ်
+     စတင်ပေးသွင်းရမည့်ငွေ       -၆သိန်းကျပ်"</string>
+    <string name="enter_again">  ဖြည့်ရန်ကျန်ပါသေးသည်</string>
+    <string name="add">ထပ်ထည့်မည်</string>
+    <string name="incorect_password">အမည်နှင့် စကားဝှက် မှားနေပါသည်။</string>
+    <string name="check_title">ကျောင်းအပ်ထားသူများ စာရင်း</string>
+    <string name="history">ကျွန်တော်တို့ပညာရေးအင်အားစုသည်၁၉၉၀တွင်စတင်ဖွင့်လှစ်ခဲ့သည်။
+၂၀၁၃ခုနှစ်တွင်ကိုယ်ပိုင်ကျောင်းအဖြစ်စတင်တည်ထောင်ခဲ့သည်။
+စတင်ဖွင့်လှစ်ခဲ့သည့်နှစ်မှစတင်ကာဂုဏ်ထူးပန်းများဖြင့်အောင်မြင်ခဲ့သည်။
+ဦးထင်ကျော်လတ်(M.B.B.S)မှ ဦးဆောင်ကာ ဝါရင့်ဆရာကြီးများ၏
+သင်ကြားမှုများဖြင့်ခရီးဆက်ခဲ့သည်မှာယနေ့တိုင်ဖြစ်သည်။
+နှစ်စဉ် တက္ကသိုလ်ဝင်တန်း အောင်ချက်မှာ ၈၀ ရာခိုင်နှုန်းအထက်တွင်သာရှိခဲ့ပါသည်။</string>
+    <string name="ok_added">ကျောင်းသားအားလက်ခံပြီးပါပြီ။
+ကိုယ်ပိုင်ကျောင်း ဆော့ဝဲလ်တွင် အောက်ပါ
+အမည် နှင့် စကားဝှက် ဖြင့် ဆော့ဝဲလ်မှ ကျောင်းသားနှင့်ပက်သက်သော
+လုပ်ဆောင်ချက်များအား စတင်လုပ်ဆောင်နိုင်ပါပြီ။</string>
+</resources>

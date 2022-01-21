@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.upper.team15.privateschool">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Login"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RealStudentActivity.RealStudent"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HomeActivity.SchoolServerHomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AboutApp"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AboutUs"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AboutActivity.SchoolAboutServer"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AboutActivity.SchoolServerContact"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AboutActivity.SchoolServerUniform"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SchoolRuleActivity.SchoolRule"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SchoolRuleActivity.SchoolServerUpdateRule"
+            android:parentActivityName=".SchoolRuleActivity.SchoolRule"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AboutTeacher.SchoolServerTeacherInfo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AboutTeacher.Teacherinfoupdate"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AboutGuide.SchoolServerGuideInfo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AboutGuide.Guideinfoupdate"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SchoolServerEvent.SchoolServerUpdateEvent"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AddNewStudent.AddNewStudentActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AbsentActivity.ServerAbsent"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MessageActivity.ServerMessageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NoticeboardActivity.UserAndServerNoticeBoardMainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NoticeboardActivity.ServerNoticeBoardMainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RegistrationActivity.CheckStudentRegistration"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TeacherServerActivity.TeacherActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TeacherServerActivity.AboutActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TeacherServerActivity.ServerUpdateHomework"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RegistrationActivity.RegisterTablayout"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RegistrationActivity.CheckMoneyPayStudent"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RealStudentActivity.CheckRealStudent"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SchoolServerEvent.Coming_Soon"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SchoolServerEvent.Reading_Continue"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NoticeboardActivity.Coming_Soon_Notice"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NoticeboardActivity.Reading_Continue_Notice"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SeconSplashScreen"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AboutActivity.SchoolHistory"
+            android:screenOrientation="portrait" />
+        <activity android:name=".HomeActivity.PercentPass"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/dialogLogo"
+        android:text="ကိုယ်ပိုင်ကျောင်းဆော့ဝဲလ်"
+        android:layout_margin="16dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:id="@+id/dialogtitle"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="100dp"
+        android:background="@color/colorPrimary"
+        android:layout_below="@+id/dialogtitle"
+        android:id="@+id/dialogview"/>
+    <TextView
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/dialogtext"
+        android:layout_below="@+id/dialogview"
+        android:text="ကိုယ်ပိုင်ကျောင်း application နှင့်ပတ်သတ်ပြီး ဝေဖန်အကြံပြုချက် များပေးပို့ရန်"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="အကြံပြုချက်များရေးသားရန်"
+        android:id="@+id/dialogedittitle"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@id/dialogtext"/>
+    <EditText
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:maxLines="5"
+        android:id="@+id/dialogedit"
+        android:layout_below="@+id/dialogedittitle"
+        android:background="@drawable/absent_text_style"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_height="140dp" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="16dp"
+        android:layout_below="@+id/dialogedit"
+        android:layout_centerHorizontal="true">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ပယ်ဖျက်မည်"
+            android:textColor="@color/white"
+            android:background="@drawable/button_style"
+            android:layout_marginRight="16dp"
+            android:id="@+id/dbutton2"
+
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ပို့မည်"
+            android:textColor="@color/white"
+            android:background="@drawable/button_style"
+            android:id="@+id/dbutton"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

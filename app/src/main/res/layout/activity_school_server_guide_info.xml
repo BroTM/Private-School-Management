@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/card_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutGuide.SchoolServerGuideInfo">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:title="သင္ၾကားေနေသာဆရာ၊ဆရာမမ်ား"
+        android:titleTextColor="@color/white"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/guide_info_toolbar"/>
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_margin="4dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/guide_info_toolbar"
+        android:id="@+id/guide_info_recycler">
+    </android.support.v7.widget.RecyclerView>
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guide_progress"
+        android:layout_centerInParent="true"/>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_guide_btn"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="120dp"
+        android:layout_gravity="bottom|end"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/plus" />
+</RelativeLayout>

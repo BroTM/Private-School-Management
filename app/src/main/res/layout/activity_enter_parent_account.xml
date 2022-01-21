@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_margin="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ok_added"
+        android:id="@+id/titletext"
+        android:textColor="#000000"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titletext"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="26dp"
+        android:text="အမည်"
+        android:id="@+id/nametext"/>
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:padding="8dp"
+        android:singleLine="true"
+        android:background="@drawable/text_style"
+        android:layout_below="@+id/titletext"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_toRightOf="@+id/nametext"
+        android:id="@+id/nameedit"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nametext"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="48dp"
+        android:text="စကားဝှတ်"
+        android:id="@+id/passtext"/>
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:layout_marginRight="16dp"
+        android:singleLine="true"
+        android:background="@drawable/text_style"
+        android:layout_below="@+id/nameedit"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:padding="8dp"
+        android:layout_toRightOf="@+id/nametext"
+        android:id="@+id/passedit"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/passedit"
+        android:layout_margin="16dp"
+        android:layout_centerHorizontal="true">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ရပါပြီ"
+            android:background="@drawable/button_style"
+            android:textColor="@color/white"
+            android:id="@+id/ok_button_alert" />
+
+    </LinearLayout>
+</RelativeLayout>

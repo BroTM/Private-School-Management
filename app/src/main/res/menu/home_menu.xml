@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/feedback" android:title="အကြံပြုချက်"/>
+    <item android:id="@+id/aboutApp" android:title="ဆော့ဝဲလ်အကြောင်း"/>
+    <item android:id="@+id/aboutus" android:title="ဆော့ဝဲလ်ရေးသူများအကြောင်း"/>
+    <item android:id="@+id/logout" android:title="အကောင့်ထွက်မယ်"/>
+</menu>

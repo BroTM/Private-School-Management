@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/card_background"
+    android:layout_height="match_parent"
+    >
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_marginBottom="16dp"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/uniformToolbar"
+            >
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_margin="16dp"
+                android:layout_height="match_parent"
+                tools:context="com.upper.team15.privateschool.UserAbout.UniformActivity">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_below="@+id/title"
+                    android:id="@+id/boycard"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="4dp"
+                    app:cardElevation="4dp"
+                    android:layout_marginBottom="8dp"
+
+                    >
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/boy_layout"
+                        android:layout_margin="8dp"
+                        android:layout_below="@+id/contacttitle"
+                        >
+                        <TextView
+                            android:layout_width="287dp"
+                            android:layout_height="45dp"
+                            android:id="@+id/boytext"
+                            android:layout_marginLeft="13dp"
+                            android:background="#1A000000"
+                            android:layout_marginTop="5dp"
+                            android:padding="8dp"
+                            android:text="ယောင်္ကျားလေးအဝတ်အစား"/>
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/boy"
+                            android:scaleType="center"
+                            android:layout_marginTop="5dp"
+                            android:layout_below="@+id/boytext"
+                            android:id="@+id/boy_image"
+                            />
+
+
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_below="@+id/boycard"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="4dp"
+                    android:layout_marginBottom="20dp"
+                    app:cardElevation="4dp"
+                    android:layout_marginTop="8dp">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:id="@+id/girl_layout">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="45dp"
+                            android:id="@+id/girltext"
+                            android:background="#1A000000"
+                            android:layout_marginTop="5dp"
+                            android:padding="8dp"
+                            android:text="မိန်းကလေးအဝတ်အစား"/>
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="500dp"
+                            android:scaleType="fitXY"
+                            android:layout_marginTop="10dp"
+                            android:layout_below="@+id/girltext"
+                            android:id="@+id/image_userrule"
+                            android:src="@drawable/girl"/>
+
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+            </RelativeLayout>
+        </ScrollView>
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>

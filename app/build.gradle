@@ -1,0 +1,54 @@
+apply plugin: 'com.android.application'
+
+repositories {
+    maven {
+        url "https://jitpack.io"
+    }
+}
+android {
+    compileSdkVersion 25
+    buildToolsVersion "26.0.2"
+    packagingOptions {
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE-FIREBASE.txt'
+        exclude 'META-INF/NOTICE'
+    }
+    defaultConfig {
+        applicationId "com.upper.team15.privateschool"
+        minSdkVersion 15
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    // Glide
+    compile 'com.android.support:appcompat-v7:25.0.1'
+    compile 'com.firebase:firebase-client-android:2.5.2'
+    compile 'com.google.firebase:firebase-storage:11.6.0'
+    compile 'com.android.support:recyclerview-v7:25.0.1'
+    compile 'com.android.support:design:25.0.1'
+    compile 'com.android.support:cardview-v7:25.0.1'
+    compile 'de.hdodenhof:circleimageview:2.2.0'
+    compile 'com.github.yalantis:Side-Menu.Android:1.0.1'
+    compile 'com.github.ozodrukh:CircularReveal:1.0.4'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'net.cachapa.expandablelayout:expandablelayout:2.9.2'
+    compile 'com.sa90.materialarcmenu:library:1.4'
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    compile 'com.miguelcatalan:materialsearchview:1.4.0'
+    testCompile 'junit:junit:4.12'
+}
+apply plugin: 'com.google.gms.google-services'

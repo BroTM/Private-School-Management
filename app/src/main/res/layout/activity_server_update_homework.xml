@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/card_background"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent" >
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/HWservertoolbar"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:background="@color/colorPrimary"/>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/HWservertoolbar"
+        android:layout_margin="16dp"
+        android:layout_centerInParent="true"
+        app:cardElevation="4dp"
+        app:cardCornerRadius="4dp"
+        >
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/activity_add__homework"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="16dp"
+            tools:context="com.upper.hp.aboutschool.Add_Homework">
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:id="@+id/contactlogo"
+                android:layout_centerHorizontal="true"
+                android:elevation="5dp"
+                android:src="@drawable/logo"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/contacttitle"
+                android:textColor="@color/colorAccent"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/contactlogo"
+                android:text="ကိုယ်ပိုင်အထက်တန်းကျောင်း"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/black"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="10dp"
+                android:layout_below="@+id/contacttitle"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/view"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="အိမ်စာပေးရန် ဖြည့်စွက်ပါ"
+                android:id="@+id/title"
+                android:layout_below="@+id/view"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/class_teacher"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/bold"
+                android:layout_below="@+id/title"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/subject"
+                android:text="ဘာသာရပ်"
+                android:layout_marginTop="16dp"
+                android:layout_below="@+id/class_teacher"
+                />
+            <EditText
+                android:paddingLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="8dp"
+                android:layout_below="@+id/subject"
+                android:id="@+id/edit_subject"
+                android:background="@drawable/absent_text_style"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/question"
+                android:layout_marginTop="10dp"
+                android:text="မေးခွန်း (သို့) အကြောင်းအရာ"
+                android:layout_below="@+id/edit_subject" />
+            <EditText
+                android:layout_width="match_parent"
+                android:paddingLeft="10dp"
+                android:layout_height="100dp"
+                android:layout_below="@+id/question"
+                android:id="@+id/edit_pageno"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/absent_text_style"
+                />
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="16dp"
+                android:id="@+id/btn_add"
+                android:text="ပို့မည်"
+                android:elevation="4dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/edit_pageno"
+                android:background="@drawable/button_style"
+                android:textColor="@color/white" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/developer_layout">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="130dp"
+                android:layout_height="150dp"
+                android:padding="20dp"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/school_developer_image"
+                android:src="@drawable/ucs_four" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/titlename"
+                android:text="Shine Thu Lwin"
+                android:layout_below="@+id/school_developer_image"
+                android:layout_centerHorizontal="true"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/titleaddress"
+                android:text="Shine Thu Lwin"
+                android:layout_marginTop="16dp"
+                android:layout_below="@+id/titlename"
+
+                android:layout_centerHorizontal="true"
+
+                />
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:id="@+id/content_layout"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/titleaddress">
+                <RelativeLayout
+                    android:background="@drawable/develop_image"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/phone_layout"
+                    >
+                    <ImageView
+                        android:layout_centerInParent="true"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/phone"
+                        android:id="@+id/developer_phone"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:background="@drawable/develop_image"
+                    android:layout_width="50dp"
+                    android:layout_toRightOf="@+id/phone_layout"
+                    android:layout_marginLeft="16dp"
+
+                    android:id="@+id/message_layout"
+                    android:layout_height="50dp">
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/message_chat"
+                        android:id="@+id/developer_message"
+                        android:layout_marginLeft="16dp"
+                        />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:background="@drawable/develop_image"
+                    android:layout_width="50dp"
+                    android:layout_toRightOf="@+id/message_layout"
+                    android:layout_marginLeft="16dp"
+
+                    android:layout_height="50dp">
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/email"
+                        android:id="@+id/developer_email"
+                        android:layout_centerInParent="true"
+                        android:layout_marginLeft="15dp"/>
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000000"
+                android:layout_below="@+id/content_layout"/>
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>

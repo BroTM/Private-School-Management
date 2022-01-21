@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.upper.team15.privateschool.RegistrationActivity.CheckStudentRegistration">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/student_registration_toolbar"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:background="@color/colorPrimary"/>
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/student_registration_toolbar">
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_margin="6dp"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/image_layout"
+                    >
+                    <ImageView
+                        android:id="@+id/ctransfer_image"
+                        android:layout_width="100dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_height="100dp"
+                        android:scaleType="fitXY" />
+                    <ImageView
+                        android:id="@+id/clarge_transfer_image"
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="0dp"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone"
+                        android:scaleType="fitXY" />
+
+                    <ProgressBar
+                        android:id="@+id/cuser_transfer_loading"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true" />
+
+                    <ImageView
+                        android:id="@+id/cuser_transfer_refresh"
+                        android:layout_width="match_parent"
+                        android:layout_margin="16dp"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/ic_refresh_icon"
+                        android:visibility="gone" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_below="@id/image_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/text_layout">
+
+                    <TextView
+                        android:layout_width="170dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="7dp"
+                        android:layout_below="@+id/cname"
+                        android:id="@+id/title_money_attend_class"
+                        android:text="တတ်ရောက်ရမည့်အတန်း"/>
+                    <TextView
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/cattend_class"
+                        android:text="Grage12dgdsgjhjklhjksjhksjgkjdfkgjsdkjhksjghksjdgljdfkgljdfklgjfdkgjdfklgjdfklgjsdflkgjdlkgjs"
+                        android:layout_toRightOf="@+id/title_money_attend_class"
+                        android:layout_below="@+id/cname"
+                        android:layout_margin="7dp"/>
+
+                    <TextView
+                        android:layout_width="170dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_below="@+id/cattend_class"
+                        android:id="@+id/title_money_address"
+                        android:text="လိပ်စာ"/>
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/caddress"
+                        android:layout_below="@+id/cattend_class"
+                        android:text="M"
+                        android:layout_toRightOf="@+id/title_money_attend_class"
+                        android:layout_margin="10dp"/>
+                    <TextView
+                        android:layout_width="170dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:id="@+id/title_money_phone"
+                        android:layout_below="@+id/caddress"
+                        android:text="ဖုန်းနံပါတ်"/>
+                    <TextView
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/cphone"
+                        android:text="09787816733"
+                        android:layout_toRightOf="@+id/title_money_attend_class"
+                        android:layout_below="@+id/caddress"
+                        android:layout_margin="10dp"/>
+                    <TextView
+                        android:layout_width="170dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_below="@+id/cphone"
+                        android:id="@+id/title_money_father_name"
+                        android:text="ဖခင်အမည်"/>
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/cfather_name"
+                        android:layout_below="@+id/cphone"
+                        android:text="U Aye Lwifdshjfdhjhdjhfdgfdgdfgsdgfgdn"
+                        android:layout_toRightOf="@+id/title_money_attend_class"
+                        android:layout_margin="10dp"/>
+                    <TextView
+                        android:layout_width="170dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_below="@+id/cfather_name"
+                        android:id="@+id/title_money_father_NRC"
+                        android:text="ဖခင်မှတ်ပုံတင်အမှတ်"/>
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/cfather_NRC"
+                        android:layout_below="@+id/cfather_name"
+                        android:text="Mandalay၄၄၃၂"
+                        android:layout_toRightOf="@+id/title_money_father_NRC"
+                        android:layout_margin="10dp"/>
+                    <TextView
+                        android:layout_width="170dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_below="@+id/cfather_NRC"
+                        android:id="@+id/title_money_mother_name"
+                        android:text="မိခင်အမည်"/>
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/cmother_name"
+                        android:layout_below="@+id/cfather_NRC"
+                        android:text="Mandalay"
+                        android:layout_toRightOf="@+id/title_money_attend_class"
+                        android:layout_margin="10dp"/>
+                    <TextView
+                        android:layout_width="170dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_below="@+id/cmother_name"
+                        android:id="@+id/title_money_mother_NRC"
+                        android:text="မိခင်မှတ်ပုံတင်အမှတ်"/>
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/cmother_NRC"
+                        android:layout_below="@+id/cmother_name"
+                        android:text="Mandala၁၂၃y"
+                        android:layout_toRightOf="@+id/title_money_attend_class"
+                        android:layout_margin="10dp"/>
+                    <TextView
+                        android:layout_width="170dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_below="@+id/cmother_NRC"
+                        android:id="@+id/title_money_student_birth"
+                        android:text="မွေးနေ့"/>
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/cstudent_birth"
+                        android:layout_below="@+id/cmother_NRC"
+                        android:text="၁၂.၁၂.၁၂"
+                        android:layout_toRightOf="@+id/title_money_attend_class"
+                        android:layout_margin="10dp"/>
+
+                    <TextView
+                        android:layout_width="170dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_below="@+id/cstudent_birth"
+                        android:id="@+id/title_money_attent_form"
+                        android:text="တတ်ရောက်မည့်သင်တန်းပုံစံ"/>
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/cstudent_attend_form"
+                        android:layout_below="@+id/cstudent_birth"
+                        android:text="School"
+                        android:layout_toRightOf="@+id/title_money_attend_class"
+                        android:layout_margin="10dp"/>
+                    <TextView
+                        android:layout_width="170dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_below="@+id/title_money_attent_form"
+                        android:id="@+id/title_text_parent_id"
+                        android:text="app ဝင်ရန်အမည်"/>
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/parent_id"
+                        android:layout_below="@+id/title_money_attent_form"
+                        android:text="School"
+                        android:layout_toRightOf="@+id/title_money_attend_class"
+                        android:layout_margin="10dp"/>
+                    <TextView
+                        android:layout_width="170dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_below="@+id/title_text_parent_id"
+                        android:id="@+id/title_money_parent_password"
+                        android:text="app ဝင်ရန်စကားဝှက်"/>
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/parent_password"
+                        android:layout_below="@+id/parent_id"
+                        android:text="School"
+                        android:layout_toRightOf="@+id/title_money_parent_password"
+                        android:layout_margin="10dp"/>
+                    <!--<LinearLayout-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:id="@+id/money_linear"-->
+                        <!--android:layout_marginLeft="10dp"-->
+                        <!--android:layout_below="@+id/cstudent_attend_form"-->
+                        <!--android:layout_centerHorizontal="true"-->
+                        <!--android:layout_marginTop="16dp"-->
+                        <!--android:layout_marginBottom="16dp"-->
+                        <!--&gt;-->
+                        <!--<Button-->
+                            <!--android:layout_width="130dp"-->
+                            <!--android:layout_height="45dp"-->
+                            <!--android:textSize="10dp"-->
+                            <!--android:text="လက်ခံမည်"-->
+                            <!--android:elevation="4dp"-->
+                            <!--android:background="@drawable/allow"-->
+                            <!--android:textColor="@color/white"-->
+                            <!--android:layout_weight="1"-->
+                            <!--android:id="@+id/check_btn_confirm" />-->
+                        <!--<Button-->
+                            <!--android:layout_width="130dp"-->
+                            <!--android:layout_marginLeft="10dp"-->
+                            <!--android:layout_height="45dp"-->
+                            <!--android:layout_weight="1"-->
+                            <!--android:elevation="4dp"-->
+                            <!--android:textSize="10dp"-->
+                            <!--android:text="ပယ်ဖျက်မည်"-->
+                            <!--android:id="@+id/check_btn_cancel"-->
+                            <!--android:background="@drawable/buttondelete"-->
+                            <!--/>-->
+                    <!--</LinearLayout>-->
+
+                </RelativeLayout>
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+    </android.support.v4.widget.NestedScrollView>
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+

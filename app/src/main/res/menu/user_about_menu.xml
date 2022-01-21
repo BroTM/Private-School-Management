@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/exist" android:icon="@drawable/homepage_drawer" android:title=" မူလ စာမျက်နှာ"/>
+        <item android:id="@+id/rule_activity" android:icon="@drawable/rule_drawer" android:title=" စည်းကမ်း"/>
+        <item android:id="@+id/learningteacher" android:icon="@drawable/learn_drawer" android:title="သင်ကြားနေသော ဆရာများ"/>
+        <item android:id="@+id/guideteacher" android:icon="@drawable/guide_drawer" android:title="လေ့ကျင့်ပေးသော ဆရာများ"/>
+        <item android:id="@+id/contact" android:icon="@drawable/contact_drawable" android:title=" ဆက်သွယ်ရန်"/>
+        <item android:id="@+id/uniform" android:icon="@drawable/uniform" android:title="တူညီဝတ်စုံ"/>
+
+    </group>
+</menu>

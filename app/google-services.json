@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "442548590175",
+    "firebase_url": "https://private-school-85adb.firebaseio.com",
+    "project_id": "private-school-85adb",
+    "storage_bucket": "private-school-85adb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:442548590175:android:306f83027ed84347",
+        "android_client_info": {
+          "package_name": "com.upper.team15.privateschool"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "442548590175-rg8th868h0gk0rr34ci7eivgcablv97t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.upper.team15.privateschool",
+            "certificate_hash": "98d39f34f1e25d5c411c880f5dc84fec6ce8d558"
+          }
+        },
+        {
+          "client_id": "442548590175-jl5o9ncc4cfhehravjar7mvjdt0rl7t6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6W8jsEaCk3Vb29BLMK17dsK0LVShU0to"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "442548590175-jl5o9ncc4cfhehravjar7mvjdt0rl7t6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

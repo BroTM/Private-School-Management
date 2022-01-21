@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content">
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            app:cardElevation="4dp"
+            android:id="@+id/card"
+            android:layout_margin="4dp"
+            android:background="@color/timecolor"
+            android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp">
+                   <RelativeLayout
+                       android:layout_width="wrap_content"
+                       android:id="@+id/register_real_layout"
+                       android:layout_margin="8dp"
+                       android:layout_height="wrap_content">
+                        <ImageView
+                            android:id="@+id/real_license_image"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:padding="0dp"
+                            android:scaleType="fitXY" />
+
+                        <ProgressBar
+                            android:id="@+id/real_license_loading"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true" />
+
+                        <ImageView
+                            android:id="@+id/real_license_refresh"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/ic_refresh_icon"
+                            android:visibility="gone" />
+                   </RelativeLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:layout_centerInParent="true"
+                            android:layout_marginLeft="32dp"
+                            android:layout_toRightOf="@+id/register_real_layout"
+                            android:id="@+id/student_real_name"
+                            android:text="Name"
+                            />
+                    <Button
+                        android:layout_width="10dp"
+                        android:layout_height="15dp"
+                        android:id="@+id/btn_real_click"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="16dp"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/dropdown" />
+                </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+</RelativeLayout>
